@@ -8,7 +8,7 @@ from pathlib import Path
 AWS_PROFILE = "etl_engenharia_dados"
 AWS_REGION = "us-east-1"
 
-ATHENA_DATABASE = "lakehouse_curated"
+ATHENA_DATABASE = "lakehouse-curated"
 ATHENA_OUTPUT = "s3://pos-graduaca-lakehouse-fernando-rocha/athena-query-results/" 
 CURATED_BUCKET = "pos-graduaca-lakehouse-fernando-rocha"
 CURATED_BASE_PREFIX = "curated"
