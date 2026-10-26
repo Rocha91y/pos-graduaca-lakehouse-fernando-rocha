@@ -9,8 +9,8 @@ AWS_PROFILE = "etl_engenharia_dados"
 AWS_REGION = "us-east-1"
 
 ATHENA_DATABASE = "lakehouse_curated"
-ATHENA_OUTPUT = "s3://pos-graduacao-lakehouse-fernando-rocha/athena-query-results/" 
-CURATED_BUCKET = "pos-graduacao-lakehouse-fernando-rocha"
+ATHENA_OUTPUT = "s3://pos-graduaca-lakehouse-fernando-rocha/athena-query-results/" 
+CURATED_BUCKET = "pos-graduaca-lakehouse-fernando-rocha"
 CURATED_BASE_PREFIX = "curated"
 
 
@@ -19,7 +19,7 @@ POLL_INTERVAL_SECONDS = 2
 # =========================
 # RESOLVER PATH DO PROJETO
 # =========================
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
 SQL_FOLDER = PROJECT_ROOT / "sql" / "curated_ctas"
 
 # =========================
