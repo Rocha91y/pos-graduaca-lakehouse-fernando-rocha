@@ -9,9 +9,8 @@ AWS_PROFILE = "etl_engenharia_dados"
 AWS_REGION = "us-east-1"
 
 ATHENA_DATABASE = "lakehouse_curated"
-ATHENA_OUTPUT = "s3://pos-graduacao-lakehouse/athena-query-results/"
-
-CURATED_BUCKET = "pos-graduacao-lakehouse"
+ATHENA_OUTPUT = "s3://pos-graduacao-lakehouse-fernando-rocha/athena-query-results/" 
+CURATED_BUCKET = "pos-graduacao-lakehouse-fernando-rocha"
 CURATED_BASE_PREFIX = "curated"
 
 
